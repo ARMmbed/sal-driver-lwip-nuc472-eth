@@ -1,0 +1,35 @@
+{
+  "name": "sal-driver-lwip-nuc472-eth",
+  "version": "1.0.0",
+  "description": "LWIP abstraction layer for nuc472 ethernet",
+  "keywords": [
+    "mbed",
+    "network",
+    "nuc472",
+	"mbed-official"	
+  ],
+  "author": "Chris <cyliang@nuvoton.com>",
+  "repository": {
+    "url": "git@github.com:xxx",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/mbed-net-lwip-nuc472",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "BSD-3-Clause"
+    },
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+	"sal-driver-lwip-nuc472-eth"
+  ],
+  "dependencies": {
+    "sal-stack-lwip": "^1.0.0",
+    "sal-iface-eth": "^1.0.0"
+  },
+  "targetDependencies": {}
+}
