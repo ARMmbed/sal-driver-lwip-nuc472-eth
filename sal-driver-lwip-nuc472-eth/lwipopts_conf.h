@@ -21,6 +21,6 @@
 #define LWIP_TRANSPORT_ETHERNET       1
 #define ETH_PAD_SIZE                  2
 
-#define MEM_SIZE                      (8*1024)//(16*1024)
+#define MEM_SIZE                      (16*1024)//(8*1024)//(16*1024)
 
 #endif

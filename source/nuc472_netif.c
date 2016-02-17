@@ -160,7 +160,8 @@ low_level_init(struct netif *netif)
     netif->mtu = 1500;
 
     /* device capabilities */
-    netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP | NETIF_FLAG_LINK_UP;
+    /* NETIF_FLAG_LINK_UP should be enabled by netif_set_link_up() */
+    netif->flags = NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP | NETIF_FLAG_ETHERNET; 
 #ifdef LWIP_IGMP
     netif->flags |= NETIF_FLAG_IGMP;
 #endif
