@@ -1,6 +1,6 @@
 {
   "name": "sal-driver-lwip-nuc472-eth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LWIP abstraction layer for nuc472 ethernet",
   "keywords": [
     "mbed",
@@ -10,7 +10,7 @@
   ],
   "author": "Chris <cyliang@nuvoton.com>",
   "repository": {
-    "url": "git@github.com:xxx",
+    "url": "git@github.com:ARMmbed/sal-driver-lwip-nuc472-eth.git",
     "type": "git"
   },
   "homepage": "https://github.com/ARMmbed/mbed-net-lwip-nuc472",
